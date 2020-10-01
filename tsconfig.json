@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2015",
+    "allowJs": true,
+    "moduleResolution": "node",
+		"strict": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+		"isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "jsx": "react",
+    "outDir": "dist",
+    "baseUrl": ".",
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/components/*"
+  ],
+}
