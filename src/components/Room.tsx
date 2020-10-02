@@ -128,7 +128,7 @@ class Index extends Component<Props, State> {
               <Haircheck
                 onAccept={() => {
                   this.setState({ consentToJoin: true });
-                  this.props.callback()
+                  this.props.callback ? this.props.callback() : () => null
                 }}
               />
             )}
