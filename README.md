@@ -7,6 +7,9 @@ Install: `cd MagicMirrorHackathon && yarn`
 
 Run: `yarn start`
 
+## Get started
+As a starter we've created a very simple `pages/Home` page to welcome you into the project. Feel free to add any pages and components as you please, also feel free to install any modules you see fit.
+
 ## Video Stream Component
 To have a very basic video stream going, just use the `<RoomViewComponent />`, present in the `/components` folder. The minimum parameters are a room name and a config url.
 
@@ -26,3 +29,5 @@ Most of the file strucutre is there to support the video component. You should o
 - `src/pages`: To create your pages;
 - `src/components`: To create any components you need. You can ignore all the other ones that are there already;
 - `src/App.js`: If you need to update the Routing.
+
+Besides these files and folders, you can/should ignore everything else.
