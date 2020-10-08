@@ -19,7 +19,7 @@ import RoomViewComponent from '../components/RoomViewComponent'
 
 <RoomViewComponent
   roomName={'testingroom'}
-  configUrl={'https://api.simplewebrtc.com/config/guest/1ea870b48756b8800d83588d'}
+  configUrl={'https://api.simplewebrtc.com/config/guest/57b6ffcbb7bb9769d8d56fcb'}
 />
 ```
 With the above you should be able to create an enter your own room called "testingroom". Open up two browser windows, and you'll be able to see yourself in it.
