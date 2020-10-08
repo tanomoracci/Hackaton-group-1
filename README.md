@@ -20,3 +20,9 @@ import RoomViewComponent from '../components/RoomViewComponent'
 />
 ```
 With the above you should be able to create an enter your own room called "testingroom". Open up two browser windows, and you'll be able to see yourself in it.
+
+## File structure
+Most of the file strucutre is there to support the video component. You should only need to focus on:
+- `src/pages`: To create your pages;
+- `src/components`: To create any components you need. You can ignore all the other ones that are there already;
+- `src/App.js`: If you need to update the Routing.
