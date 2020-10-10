@@ -1,8 +1,9 @@
 // @ts-nocheck
- 
+import RoomControls from './RoomControls'
 import React, { Component } from 'react';
 import Room from '../components/Room';
 import ThemeProvider from '../components/ThemeProvider';
+import LocalMediaControls from './LocalMediaControls';
 
 interface Props {
   configUrl: string;
@@ -24,9 +25,9 @@ class RoomViewComponent extends Component<Props> {
     } = this.props;
 
     return (
-      <ThemeProvider>
-        <div>
-          {roomName &&
+          <ThemeProvider>
+       
+           {roomName &&
             <Room
               name={roomName}
               configUrl={configUrl}
@@ -36,8 +37,11 @@ class RoomViewComponent extends Component<Props> {
               Screensaver={screensaver}
               thumbnail={thumbnail === false ? false : true}
               callback={callback}
-            />}
-        </div>
+            />
+            }
+          
+
+      
       </ThemeProvider>
     );
   }

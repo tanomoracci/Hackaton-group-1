@@ -93,7 +93,7 @@ const LocalMediaControls: React.SFC<LocalMediaControlsProps> = ({
   pauseVideo
 }) => (
   <Container>
-    {/* <RequestUserMedia
+     <RequestUserMedia
       audio={{
         deviceId: {
           ideal: localStorage.preferredAudioDeviceId
@@ -123,7 +123,7 @@ const LocalMediaControls: React.SFC<LocalMediaControlsProps> = ({
     <PauseButton isOff={isPaused} onClick={() => (isPaused ? resumeVideo() : pauseVideo())}>
       {isPaused ? <VideocamOffIcon /> : <VideocamIcon />}
     </PauseButton>
-    <ScreenshareControls /> */}
+    <ScreenshareControls /> 
   </Container>
 );
 
