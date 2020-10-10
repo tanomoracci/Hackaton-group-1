@@ -7,22 +7,12 @@ Install: `cd MagicMirrorHackathon && yarn`
 
 Run: `yarn start`
 
-## Get started
-As a starter we've created a very simple `pages/Home` page to welcome you into the project. Feel free to add any pages and components as you please, also feel free to install any modules you see fit.
+## About the Poject
+We manage to add a button to set the mic and the camera on/off. And we also added a button to get the link of the meeting room to be shared. 
 
 ## Video Stream Component
-To have a very basic video stream going, just use the `<RoomViewComponent />`, present in the `/components` folder. The minimum parameters are a room name and a config url.
+The Video Component is working but we couldn't do much more with that.
 
-Example
-```
-import RoomViewComponent from '../components/RoomViewComponent'
-
-<RoomViewComponent
-  roomName={'testingroom'}
-  configUrl={'https://api.simplewebrtc.com/config/guest/57b6ffcbb7bb9769d8d56fcb'}
-/>
-```
-With the above you should be able to create an enter your own room called "testingroom". Open up two browser windows, and you'll be able to see yourself in it.
 
 ## File structure
 Most of the file strucutre is there to support the video component. You should only need to focus on:
