@@ -1,7 +1,7 @@
-# "Magic Mirror" Boilerplate
+# "Magic Mirror" HACKATON GROUP 1
 
 ## Setup
-Clone: `git clone https://github.com/Cloudoki/MagicMirrorHackathon.git`
+Clone: `git clone https://github.com/tanomoracci/Hackaton-group-1
 
 Install: `cd MagicMirrorHackathon && yarn`
 
