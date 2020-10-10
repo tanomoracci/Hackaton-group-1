@@ -1,21 +1,23 @@
 import VolumeMeter from '../components/VolumeMeter'
 import React, {useState} from 'react';
 import RoomViewComponent from '../components/RoomViewComponent';
-import InviteButton from  '../components/InviteButton'
 import { Container, Paper, Box } from '@material-ui/core';
 import FloatingNav from './FloatingNav';
 import { makeStyles } from '@material-ui/core/styles';
 
 
+
 const useStyles = makeStyles((theme) => ({
   container: {
-    height: '500px',
-    width: '900px',
-    margin: ' 0 auto',
+    height: '600px !important',
+    /* width: '900px !important', */
+    margin: ' auto',
     display: 'flex',
-  },
-  nav: {
-  },
+    direction: 'row',
+    justifyContent: 'center',
+    marginTop: '25px !importa,nt'
+    },
+
   
 }));
 
@@ -31,24 +33,24 @@ export const Home = (props) => {
 
   return (
     <>  
-      <Box p={2} pb={5} className={classes.container}>
-     
-      <Paper elevation={4} >
+      <Box  >
+      
+      <div elevation={4} mb={4} className={classes.container}>
         <div className={classes.room}>
+        
         <FloatingNav toggleMic={toggleMic} toggleVideo={toggleVideo} className={classes.nav} />
-        <RoomViewComponent
+        <VolumeMeter /> 
+        <RoomViewComponent className='classes.view'
         roomName={'testingroom'}
         configUrl={'https://api.simplewebrtc.com/config/guest/57b6ffcbb7bb9769d8d56fcb'}
         myAudio={mic}
         myVideo={video}
         />
         
-        <VolumeMeter /> 
-        </div>
-      </Paper>
-    
-    </Box>
         
+        </div>
+      </div> 
+    </Box>
     </>
   );
 }

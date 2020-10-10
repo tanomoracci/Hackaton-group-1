@@ -26,7 +26,6 @@ class RoomViewComponent extends Component<Props> {
 
     return (
           <ThemeProvider>
-       
            {roomName &&
             <Room
               name={roomName}
