@@ -3,7 +3,7 @@
 ## Setup
 Clone: `git clone https://github.com/tanomoracci/Hackaton-group-1
 
-Install: `cd MagicMirrorHackathon && yarn`
+Install: `cd Hackaton-group-1 && yarn`
 
 Run: `yarn start`
 
